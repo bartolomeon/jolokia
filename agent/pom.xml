@@ -39,6 +39,7 @@
     <module>war</module>
     <module>jsr160</module>
     <module>mule</module>
+    <module>mule-jetty9</module>
     <module>osgi</module>
     <module>osgi-bundle</module>
     <module>jmx</module>

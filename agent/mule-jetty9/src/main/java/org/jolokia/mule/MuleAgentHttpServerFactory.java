@@ -22,8 +22,9 @@ import org.mule.api.agent.Agent;
  * HTTP Server factory for the Mule agent.
  *
  * 
- * @author Michio Nakagawa, Bartłomiej Nićka
- * @since 10.10.14+
+ * @author Michio Nakagawa
+ * @author Bartłomiej Nićka
+ * @since 10.10.14
  */
 public final class MuleAgentHttpServerFactory {
 	// Server class for Jetty6

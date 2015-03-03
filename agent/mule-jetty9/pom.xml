@@ -19,10 +19,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.jolokia</groupId>
-  <artifactId>jolokia-mule</artifactId>
+  <artifactId>jolokia-mule-jetty9</artifactId>
   <version>1.2.4-SNAPSHOT</version>
-  <name>jolokia-mule</name>
-  <description>mule agent</description>
+  <name>jolokia-mule-jetty9</name>
+  <description>mule agent compatible with Mule 3.5 (and embedded Jetty9)</description>
 
   <parent>
     <groupId>org.jolokia</groupId>

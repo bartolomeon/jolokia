@@ -19,8 +19,9 @@ package org.jolokia.mule;
 import org.mule.api.lifecycle.InitialisationException;
 
 /**
- * @author Michio Nakagawa, Bartłomiej Nićka
- * @since 10.10.14+
+ * @author Michio Nakagawa
+ * @author Bartłomiej Nićka
+ * @since 10.10.14
  */
 public class EclipseJolokiaMuleAgentTest extends JolokiaMuleAgentTestCase {
 	@Override

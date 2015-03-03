@@ -27,6 +27,7 @@ import org.testng.annotations.Test;
 
 /**
  * @author Michio Nakagawa
+ * @author Bartłomiej Nićka
  * @since 10.10.14
  */
 public class MuleAgentHttpServerFactoryTest {
@@ -54,7 +55,7 @@ public class MuleAgentHttpServerFactoryTest {
         setFieldValue(new MuleAgentHttpServerFactory(), "CLAZZ_NAME", "xxx");
 
         MuleAgentHttpServer actual = MuleAgentHttpServerFactory.create(agent, agent);
-        assertEquals(actual.getClass(), BaseEclipseMuleAgentHttpServer.class);
+        assertEquals(actual.getClass(), Jetty9MuleAgentHttpServer.class);
     }
 
     private void setFieldValue(Object target, String name, Object value) throws Exception {

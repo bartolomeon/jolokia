@@ -25,7 +25,6 @@ import org.mule.api.agent.Agent;
  *
  *
  * @author Bartłomiej Nićka
- * @since 10.10.14 (patched)
  */
 public class Jetty9MuleAgentHttpServer extends BaseEclipseMuleAgentHttpServer {
 

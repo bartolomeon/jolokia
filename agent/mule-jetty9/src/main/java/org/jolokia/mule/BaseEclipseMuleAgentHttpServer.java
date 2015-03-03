@@ -40,7 +40,8 @@ import org.mule.api.lifecycle.StopException;
  * HTTP Server for the Mule agent which encapsulates a Eclipse Jetty server.
  *
  *
- * @author Michio Nakagawa, Bartłomiej Nicka
+ * @author Michio Nakagawa
+ * @author Bartłomiej Nicka
  * @since 10.10.14
  */
 public abstract class BaseEclipseMuleAgentHttpServer implements MuleAgentHttpServer {
